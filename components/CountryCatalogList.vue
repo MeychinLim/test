@@ -184,7 +184,7 @@ const totalCount = computed(() => countries.value.length);
 const paginationData = computed(() => pagination());
 
 const pagination = () => {
-  const rowPerPage = 10;
+  const rowPerPage = 25;
   const start = (currentPage.value - 1) * rowPerPage;
   const end = start + rowPerPage;
 
