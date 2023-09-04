@@ -142,6 +142,8 @@
 </template>
 
 <script setup>
+import "tailwindcss/tailwind.css";
+
 const { data: restCountries } = await useFetch(
   "https://restcountries.com/v3.1/all"
 );
